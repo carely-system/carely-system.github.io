@@ -125,6 +125,8 @@ const resources = {
             ],
           },
         },
+        perMonth: 'month',
+        perYear: 'year',
       },
 
       footer: {
@@ -281,6 +283,8 @@ const resources = {
             ],
           },
         },
+        perMonth: 'mês',
+        perYear: 'ano',
       },
 
       footer: {

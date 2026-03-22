@@ -102,7 +102,7 @@ export const Pricing: React.FC<PricingProps> = ({ currentTheme }) => {
                     ${isYearly ? plan.priceYearly : plan.priceMonthly}
                   </span>
                   <span className={cn('text-xs opacity-60 font-medium', theme.text)}>
-                    /{isYearly ? 'year' : 'month'}
+                    /{isYearly ? t('pricing.perYear') : t('pricing.perMonth')}
                   </span>
                 </div>
               </div>
