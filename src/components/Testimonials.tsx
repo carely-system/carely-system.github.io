@@ -24,7 +24,7 @@ export const Testimonials: React.FC<TestimonialsProps> = ({ currentTheme }) => {
             viewport={{ once: true }}
             className={cn('text-4xl md:text-5xl font-bold mb-6 tracking-tight', theme.text)}
           >
-            Real People. Real Results.
+            {t("testimonials.title")}
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -33,7 +33,7 @@ export const Testimonials: React.FC<TestimonialsProps> = ({ currentTheme }) => {
             transition={{ delay: 0.1 }}
             className={cn('text-lg max-w-2xl mx-auto opacity-70 leading-relaxed', theme.text)}
           >
-            Thousands trust Carely for their healthcare needs.
+            {t("testimonials.subtitle")}
           </motion.p>
         </div>
 
